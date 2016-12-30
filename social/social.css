@@ -1,0 +1,338 @@
+.pace .pace-activity {
+    border-top-color: rgb(54, 215, 244);
+    border-left-color: rgb(54, 215, 244);
+}
+
+nav ul li a.active,
+h1 span,
+li a span {
+    color: rgb(54, 215, 244);
+}
+
+.mouse-icon .wheel {
+    background: rgb(54, 215, 244);
+}
+
+#inicio {
+    background: url("img/bg.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#inicio .fundo {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+#inicio h1 {
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    padding: 2rem 0;
+    margin: 0 5%;
+}
+
+.btn {
+    border: 2px solid rgb(54, 215, 244);
+    color: rgb(54, 215, 244);
+}
+
+#facebook-ads,
+#criacao-de-imagens {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#facebook-ads {
+    background-color: rgb(247, 245, 244);
+}
+
+#social-media {
+    padding-top: 3rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+#planos-de-gestao {
+    margin-top: 2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 2rem;
+    background-color: rgb(247, 245, 244);
+}
+
+.plano-a {
+    background: url("img/plano-a.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.plano-b {
+    background: url("img/plano-b.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.plano-c {
+    background: url("img/plano-c.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.planos-social {
+    margin: 2.5rem auto;
+}
+
+#social-media .box .titulo {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-size: 1.1em;
+}
+
+#social-media .box p {
+    font-style: italic;
+    padding: 0;
+    margin-bottom: 2.6rem;
+}
+
+#social-media ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5em;
+    margin: auto 5%;
+}
+
+#social-media .box h2 {
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#social-media .box h2 spam {
+    font-style: normal;
+    font-size: .8em;
+    font-weight: 700;
+    text-transform: none;
+}
+
+#social-media .box .preco {
+    margin-top: 1.6rem;
+    color: rgb(54, 215, 244);
+}
+
+#social-media .box .btn {
+    border: 2px solid rgb(69, 69, 69);
+    color: rgb(69, 69, 69);
+}
+
+#objetivos {
+    background-color: rgb(250, 249, 248);
+    padding: 2.6rem 0;
+    margin: 2.6rem auto;
+}
+
+#objetivos ul {
+    padding: 0;
+}
+
+#objetivos ul li {
+    list-style: none;
+    line-height: 1.5em;
+    margin: auto 5%;
+    text-align:
+}
+
+#objetivos ul li spam {
+    font-weight: 700;
+}
+
+.regra {
+    font-size: .9em;
+}
+
+#investimento {
+    padding-top: 2.6rem;
+    width: 100%;
+}
+
+#investimento .quadro {
+    width: 90%;
+    margin: auto;
+    background: rgb(253, 252, 251);
+    border-radius: 2px;
+    border: 1px solid rgb(229, 229, 229);
+}
+
+#investimento .quadro p {
+    margin: 0 5%;
+    font-family: "lato", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+#criacao-de-imagens .container {
+    padding-top: 3rem;
+}
+
+.pacote-5 {
+    background: url("img/pacote5.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.pacote-10 {
+    background: url("img/pacote10.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.pacote-15 {
+    background: url("img/pacote15.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.pacote .preco h1 {
+    margin-top: 2rem;
+}
+
+.pacote .preco h1 spam {
+    font-size: .7em;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom: 1px solid rgb(54, 215, 244);
+}
+
+@media screen and (min-width: 62.6rem) {
+    #criacao-de-imagens .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+    #criacao-de-imagens .container .box {
+        width: 30%;
+        margin: auto 1%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .container .mini-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28vw;
+        height: 12rem;
+        margin: 1rem;
+    }
+    #social-media .container .box,
+    #facebook-ads .container .box {
+        width: 30vw;
+        margin: 10px 1%;
+    }
+    #social-media .container .box ul {
+        height: 24rem;
+    }
+    #facebook-ads .container .box {
+        height: 25vw;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .menu-desktop a:hover {
+        color: rgb(54, 215, 244);
+    }
+    .fixar .menu-desktop a:hover {
+        color: rgb(54, 215, 244);
+    }
+    .fixar .logo:hover {
+        background: url('../img/logo/logo-azul.svg') no-repeat center center;
+    }
+    #inicio {
+        background-size: 80%;
+    }
+    .btn:hover,
+    #contato .btn:hover {
+        border: 2px solid rgb(54, 215, 244);
+        background-color: rgb(54, 215, 244);
+    }
+    #facebook-ads,
+    #criacao-de-imagens {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    #criacao-de-imagens .container .box {
+        width: 18rem;
+    }
+    #social-media ul {
+        height: 300px;
+    }
+    #facebook-ads .container .box {
+        width: 30vw;
+    }
+    #social-media .container .box ul {
+        height: 22rem;
+    }
+    #social-media .container .box .btn:hover {
+        border: 2px solid rgb(54, 215, 244);
+        background-color: rgb(54, 215, 244);
+        color: rgb(255, 255, 255);
+    }
+    #facebook-ads .container .box {
+        height: 15vw;
+    }
+    #investimento .quadro {
+        width: 80%;
+    }
+    #carousel-imagens .item {
+        position: relative;
+    }
+    #carousel-imagens .item .mask .btn {
+        border: 2px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        margin: 0;
+    }
+    #carousel-imagens .item .mask {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(54, 215, 244, .7);
+        opacity: 0;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+    }
+    #carousel-imagens .item:hover .mask {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #social-media .container .box,
+    #facebook-ads .container .box {
+        width: 18rem;
+    }
+    #facebook-ads .container .box {
+        height: 12vw;
+    }
+    .container .mini-box {
+        width: 21rem;
+    }
+    #investimento .quadro {
+        width: 70%;
+    }
+    #carousel-imagens {
+        width: 75vw;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    #facebook-ads .container .box {
+        height: 11vw;
+    }
+}

@@ -1,0 +1,49 @@
+.menu-desktop {
+    margin-top: 7px;
+}
+
+#briefing {
+    padding-top: 110px;
+}
+
+#briefing h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#briefing h2 {
+    padding: 40px;
+}
+
+#briefing .subtitulo {
+    padding-bottom: 10px;
+}
+
+.italico {
+    font-style: italic;
+    margin: 0 5% 50px;
+    padding: 0;
+}
+
+#dados {
+    background: rgb(247, 245, 244);
+    padding-bottom: 50px;
+    border-top: solid 1px rgb(255, 255, 255);
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+
+.btn {
+    background: rgb(247, 245, 244);
+    margin: 0 auto;
+}
+
+#contato {
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+    #dados {
+        width: 70%;
+        margin: auto;
+    }
+}

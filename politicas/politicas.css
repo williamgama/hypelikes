@@ -1,0 +1,49 @@
+.menu-desktop {
+    margin-top: 6px;
+}
+
+.italico {
+    font-style: italic;
+    margin: 0 5% 50px;
+    padding: 0;
+}
+
+#entrega ul {
+    padding: 0;
+    padding-left: 10px;
+    line-height: 1.5em;
+    padding-bottom: 40px;
+}
+
+#entrega ul li {
+    margin: 0 5%;
+}
+ul .italico,
+#alteracoes p .italico{
+    font-style: italic;
+    margin: 0 ;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+#atendimento,
+#entrega {
+    background-color: rgb(247, 245, 244);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+
+@media screen and (min-width: 1000px) {
+#entrega ul {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+#entrega ul {
+        margin: 0 20%;
+    }
+}
